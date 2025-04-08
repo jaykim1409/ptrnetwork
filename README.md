@@ -6,13 +6,13 @@ In this respository you can find pytorch implementation of [Pointer Network](htt
 ## Architecure
 ### Encoder
 * bidirectional LSTM
-* hidden size : 256 \
+* hidden size : 256 
 
 provide embedding vectors of input cities coordinates
 
 ### Decoder
 * LSTM
-* hidden size : 256 \
+* hidden size : 256 
 
 after passing LSTM layer, it produces next input using Attention mechanism
 
