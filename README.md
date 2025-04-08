@@ -31,9 +31,15 @@ dataset can be found in [here](https://drive.google.com/drive/folders/0B2fg8yPGn
 ![Train Result](img/loss_curve.png)
 
 ### Test on 10 cities (same number of cities as test)
+#### Best Result
 <p align="center">
-  <img src="img/tsp_10_answer_best.png" width="300"/>
-  <img src="img/tsp_10_pred_best.png" width="300"/>
+  <img src="img/tsp_10_answer_best.png" width="500"/>
+  <img src="img/tsp_10_pred_best.png" width="500"/>
+</p>
+#### Another Result
+<p align="center">
+  <img src="img/tsp_10_answer.png" width="500"/>
+  <img src="img/tsp_10_pred.png" width="500"/>
 </p>
 
 
