@@ -4,6 +4,9 @@ In this respository you can find pytorch implementation of [Pointer Network](htt
 
 
 ## Architecure
+### Encoder
+* bidirectional LSTM
+* hidden size : 256
 
 
 ## Result
