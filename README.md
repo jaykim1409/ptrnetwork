@@ -19,4 +19,4 @@ after passing LSTM layer, it produces next input using Attention mechanism
 
 ## Result
 
-![Train Result](loss_curve.png)
+![Train Result](img/loss_curve.png)
