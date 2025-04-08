@@ -14,7 +14,11 @@ provide embedding vectors of input cities coordinates
 * hidden size : 256
 after passing LSTM layer, it produces next input using Attention mechanism
 
-### Pointer Attention
+### Pointer Network Attention
+![attn](img/ptrnet.png)
+given decoder i, it calculates attention scores related with encoder state j(s) 
+then choose largest score's index among softmax distribution as a next city index
+
 
 
 ## Result
