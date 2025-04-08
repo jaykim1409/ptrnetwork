@@ -66,7 +66,8 @@ class PtrNetwork(nn.Module):
         self.attention = PtrAttention(hidden_dim)
         self.decoder = Decoder(hidden_dim, self.attention)
         
-    def forward(self, inputs, target_len, padding_mask=None, targets=None):
+    # def forward(self, inputs, target_len, padding_mask=None, targets=None):
+    def forward(self, inputs, target_len, targets=None):
         batch_size, input_len, _ = inputs.size()
         
         # Encoder
@@ -77,7 +78,7 @@ class PtrNetwork(nn.Module):
         decoder_hidden = None
 
         pointer_logits = []
-        pointer_mask = padding_mask.clone() if padding_mask is not None else torch.ones(batch_size, input_len).to(inputs.device)
+        pointer_mask = torch.ones(batch_size, input_len).to(inputs.device)
 
         loss = 0.0
         
