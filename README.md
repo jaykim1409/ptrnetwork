@@ -4,3 +4,8 @@ In this respository you can find pytorch implementation of [Pointer Network](htt
 
 
 ## Architecure
+
+
+## Result
+
+![Train Result](loss_curve.png)
