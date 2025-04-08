@@ -23,7 +23,8 @@ given decoder i, it calculates attention scores related with encoder state j(s)
 
 then choose largest score's index among softmax distribution as a next city index
 
-
+## Data
+dataset can be found in [here](https://drive.google.com/drive/folders/0B2fg8yPGn2TCMzBtS0o4Q2RJaEU?resourcekey=0-46fqXNrTmcUA4MfT6GLcIg)
 
 ## Result
 
